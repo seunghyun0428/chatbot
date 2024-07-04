@@ -1,6 +1,5 @@
 from deep_translator import GoogleTranslator
 
-
 translator_en_kr = GoogleTranslator(source='en', target='korean')
 translator_kr_en = GoogleTranslator(source='korean', target='en')
 
