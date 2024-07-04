@@ -5,7 +5,6 @@ from tkinter.constants import DISABLED, NORMAL, RIGHT
 from threading import Thread, Event
 from time import sleep
 
-<<<<<<< HEAD
 from deep_translator import GoogleTranslator
 
 
@@ -21,8 +20,6 @@ def translate_kr_en(message):
     return translator_kr_en.translate(message)
 
 
-=======
->>>>>>> temp
 class ChatGUI:
     def __init__(self, callback, first_message="welcome to ChatBotAI", terminate="quit"):
         """
