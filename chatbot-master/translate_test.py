@@ -14,4 +14,3 @@ def translate_kr_en(message):
 
 print(translate_en_kr("hello"))
 print(translate_kr_en("감사합니다"))
-
